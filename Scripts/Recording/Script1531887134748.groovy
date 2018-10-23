@@ -71,5 +71,5 @@ WebUI.click(findTestObject('hotel details 3/Page_Add Hotel/button_Submit'))
 
 WebUI.verifyElementPresent(findTestObject('verification'), 5)
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 
